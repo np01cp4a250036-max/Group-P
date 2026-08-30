@@ -11,3 +11,8 @@ heheh/
 # Ignore temporary files
 *.tmp
 *.swp
+
+# Ignore images you don’t want
+*.png
+*.jpg
+*.jpeg
