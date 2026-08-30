@@ -1,0 +1,13 @@
+# Ignore system files
+*.log
+*.ini
+ntuser.dat*
+WPS Cloud Files/
+WPSDrive/
+bluej/
+heheeh/
+heheh/
+
+# Ignore temporary files
+*.tmp
+*.swp
