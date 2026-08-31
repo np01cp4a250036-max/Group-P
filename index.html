@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Messi Fan Club</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fafafa; }
+    header { background:#000; color:#fff; text-align:center; padding:50px; }
+    header h1 { font-size:3em; margin:0; }
+    nav { background:#333; padding:10px; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#ffd700; }
+
+    .section { padding:40px; text-align:center; }
+    .section h2 { margin-bottom:20px; color:#222; }
+
+    /* Intro Section Styling */
+    .intro {
+      background:#fff;
+      border:2px solid #ddd;
+      border-radius:10px;
+      padding:30px;
+      max-width:800px;
+      margin:30px auto;
+      text-align:center;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+    .intro h2 {
+      color:#222;
+      margin-bottom:15px;
+    }
+    .intro p {
+      color:#555;
+      line-height:1.6;
+      font-size:1.05em;
+    }
+
+    .cards { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; }
+    .card { background:#f4f4f4; padding:20px; width:250px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width:100%; border-radius:8px; margin-bottom:10px; }
+    .card h3 { margin:10px 0; color:#333; }
+    .card p { color:#555; font-size:0.95em; }
+    .card button { padding:10px 20px; border:none; background:#333; color:#fff; border-radius:5px; cursor:pointer; }
+    .card button:hover { background:#555; }
+
+    .info-box {
+      background:#fff;
+      border:2px solid #ddd;
+      border-radius:10px;
+      padding:20px;
+      max-width:700px;
+      margin:20px auto;
+      text-align:left;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+    .info-box h3 { color:#333; margin-top:15px; }
+    .info-box p { color:#555; line-height:1.6; }
+
+    .image-box img {
+      max-width:100%;
+      border-radius:10px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.2);
+      margin-top:20px;
+    }
+
+    footer { background:#222; color:#fff; text-align:center; padding:20px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Messi Fan Club</h1>
+    <p>Celebrating the Legend – Lionel Messi</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutUs.html">About US</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="Products.html">Products</a>
+  </nav>
+
+  <!-- Intro Section -->
+  <div class="intro">
+    <h2>Welcome to Our Messi Store</h2>
+    <p>
+      Explore a handpicked collection of exclusive Messi merchandise designed for true fans. 
+      From official jerseys to rare collectibles, each product celebrates the legacy of Lionel Messi. 
+      Whether you’re looking to wear your pride, decorate your space, or own a piece of football history, 
+      this store brings you closer to the legend. Browse through our categories below and discover items 
+      that match your passion for the beautiful game.
+    </p>
+  </div>
+
+  <!-- Highlights -->
+  <div class="section">
+    <h2>Highlights</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Career Achievements</h3>
+        <p>Messi has scored over 800 career goals, won 10 La Liga titles, 4 Champions League trophies, and countless individual awards.</p>
+      </div>
+      <div class="card">
+        <h3>Latest News</h3>
+        <p>Messi continues to inspire fans with his performances in MLS and international matches, proving his legacy is still growing.</p>
+      </div>
+      <div class="card">
+        <h3>Fan Stories</h3>
+        <p>From Argentina to Nepal, fans share how Messi’s journey has motivated them in life, sports, and beyond.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Merchandise -->
+  <div class="section">
+    <h2>Featured Merchandise</h2>
+    <p>Shop jerseys, posters, and collectibles</p>
+    <div class="cards">
+      <div class="card">
+        <img src="messiI" alt="Messi Jersey Front">
+        <h3>Official Jersey</h3>
+        <p>Authentic Argentina jersey with Messi #10.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="Argen" alt="Messi Jersey Back">
+        <h3>Signed Jersey</h3>
+        <p>Messi #10 jersey with signature print.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="poster" alt="Messi Poster">
+        <h3>Messi Poster</h3>
+        <p>Limited edition poster of Messi’s iconic celebration.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="ball" alt="Messi Ball">
+        <h3>Collectible Ball</h3>
+        <p>Replica signed football to celebrate Messi’s career.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Messi -->
+  <div class="section">
+    <h2>About Messi</h2>
+    <div class="info-box">
+      <p>Lionel Messi is widely regarded as one of the greatest footballers of all time. Born in Rosario, Argentina, he rose through FC Barcelona’s academy to become their all-time top scorer.</p>
+      <p>Messi has won multiple Ballon d’Or awards, led Argentina to Copa América and World Cup glory, and continues to inspire millions with his humility and skill.</p>
+      <p>Beyond football, Messi is known for his charitable work through the Leo Messi Foundation, supporting children’s health and education worldwide.</p>
+    </div>
+    <div class="image-box">
+      <img src="balli.jpg" alt="Messi with Ballon d'Or trophies">
+    </div>
+  </div>
+
+  <!-- Conclusion -->
+  <div class="section">
+    <h2>Conclusion</h2>
+    <div class="info-box">
+      <p>Messi’s journey is more than just football; it is a story of passion, dedication, and inspiration.</p>
+      <p>From his early days in Rosario to becoming a global icon, Messi has shown what true greatness looks like.</p>
+      <p>His achievements on the pitch are matched by his humility and commitment off the field.</p>
+      <p>Fans across the world continue to celebrate his legacy through stories, merchandise, and shared memories.</p>
+      <p>This website is a tribute to the legend, bringing together highlights, products, and community voices.</p>
+      <p>Every section here reflects the love and respect Messi has earned over decades of brilliance.</p>
+      <p>Whether you are here to shop, read, or simply admire, you are part of a global fan family.</p>
+      <p>As Messi’s legacy grows, so does the passion of his supporters — united by the beautiful game.</p>
+      <p>Thank you for being part of the Messi Fan Club, where the legend lives forever.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Messi Fan Club | Follow us on Instagram, Twitter, YouTube</p>
+  </footer>
+</body>
+</html>
